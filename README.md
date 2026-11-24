@@ -1,7 +1,17 @@
-# Token Radar — radar-2
+# token-radar-01
+
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/halohalobandunugvngun/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/halohalobandunugvngun/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A token launch radar for make.fun's `token-radar-01` bounty: 758 DefiLlama protocols in, 226
 pre-token protocols ranked by implied value out. Built with Node 22 and the standard library only.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
+```
 
 ## What it does
 
@@ -13,12 +23,6 @@ pre-token protocol, and writes:
 - `dashboard/` — a static page, no framework, no network
 - `screenshots/` — three screenshots of the page (board, detail, filtered)
 - `dossier.json` — the summary the judge reads, built with the vendored `vendor/makefun-board.ts`
-
-Run it locally:
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
-```
 
 ## The model (radar-2)
 
@@ -71,3 +75,7 @@ read this board" section. Implied value is a model, not a price, and the page sa
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=xyb0fagg&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
